@@ -15,6 +15,7 @@
 		A795669A1CA29CBF00A79EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79566981CA29CBF00A79EE6 /* LaunchScreen.storyboard */; };
 		A79566A51CA29CC000A79EE6 /* UserProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79566A41CA29CC000A79EE6 /* UserProfileTests.swift */; };
 		A79566B01CA29CC000A79EE6 /* UserProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79566AF1CA29CC000A79EE6 /* UserProfileUITests.swift */; };
+		A79566BE1CA29E3600A79EE6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79566BD1CA29E3600A79EE6 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A79566AB1CA29CC000A79EE6 /* UserProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79566AF1CA29CC000A79EE6 /* UserProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileUITests.swift; sourceTree = "<group>"; };
 		A79566B11CA29CC000A79EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79566BD1CA29E3600A79EE6 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				A795668C1CA29CBF00A79EE6 /* AppDelegate.swift */,
 				A795668E1CA29CBF00A79EE6 /* ViewController.swift */,
+				A79566BD1CA29E3600A79EE6 /* CoreDataManager.swift */,
 				A79566901CA29CBF00A79EE6 /* Main.storyboard */,
 				A79566961CA29CBF00A79EE6 /* Assets.xcassets */,
 				A79566981CA29CBF00A79EE6 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				A795668F1CA29CBF00A79EE6 /* ViewController.swift in Sources */,
 				A79566951CA29CBF00A79EE6 /* UserProfile.xcdatamodeld in Sources */,
+				A79566BE1CA29E3600A79EE6 /* CoreDataManager.swift in Sources */,
 				A795668D1CA29CBF00A79EE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +490,7 @@
 				A79566B61CA29CC000A79EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A79566B71CA29CC000A79EE6 /* Build configuration list for PBXNativeTarget "UserProfileTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				A79566B91CA29CC000A79EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A79566BA1CA29CC000A79EE6 /* Build configuration list for PBXNativeTarget "UserProfileUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				A79566BC1CA29CC000A79EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
