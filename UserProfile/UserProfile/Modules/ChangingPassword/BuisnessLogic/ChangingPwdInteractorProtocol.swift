@@ -8,6 +8,6 @@
 
 import UIKit
 
-@objc protocol ChangingPwdInteractorProtocol {
-    
+protocol ChangingPwdInteractorProtocol {
+    func changePassword(oldPwd: String, newPwd: String)
 }

@@ -8,6 +8,6 @@
 
 import UIKit
 
-@objc protocol UserProfileInteractorProtocol {
-    
+protocol UserProfileInteractorProtocol {
+    func updateUserProfile(user:UserModel)
 }

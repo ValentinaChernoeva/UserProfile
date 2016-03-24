@@ -10,4 +10,8 @@ import UIKit
 
 class UserProfileInteractor: NSObject, UserProfileInteractorProtocol {
     
+    func updateUserProfile(user: UserModel) {
+        
+    }
+    
 }

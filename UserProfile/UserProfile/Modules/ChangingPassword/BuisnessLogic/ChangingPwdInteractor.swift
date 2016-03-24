@@ -9,5 +9,7 @@
 import UIKit
 
 class ChangingPwdInteractor: NSObject, ChangingPwdInteractorProtocol {
-    
+    func changePassword(oldPwd: String, newPwd: String) {
+        
+    }
 }
