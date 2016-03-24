@@ -30,6 +30,12 @@
 		A795672D1CA3F49C00A79EE6 /* ChangingPwdWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795672B1CA3F49C00A79EE6 /* ChangingPwdWireframeProtocol.swift */; };
 		A79567301CA3F4A400A79EE6 /* ChangingPwdInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795672E1CA3F4A400A79EE6 /* ChangingPwdInteractor.swift */; };
 		A79567311CA3F4A400A79EE6 /* ChangingPwdInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795672F1CA3F4A400A79EE6 /* ChangingPwdInteractorProtocol.swift */; };
+		A79567481CA3F72E00A79EE6 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79567461CA3F72E00A79EE6 /* HomeInteractor.swift */; };
+		A79567491CA3F72E00A79EE6 /* HomeInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79567471CA3F72E00A79EE6 /* HomeInteractorProtocol.swift */; };
+		A795674C1CA3F73600A79EE6 /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795674A1CA3F73600A79EE6 /* HomeWireframe.swift */; };
+		A795674D1CA3F73600A79EE6 /* HomeWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795674B1CA3F73600A79EE6 /* HomeWireframeProtocol.swift */; };
+		A795674F1CA3F73F00A79EE6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795674E1CA3F73F00A79EE6 /* HomeVC.swift */; };
+		A79567511CA3F77500A79EE6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79567501CA3F77500A79EE6 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +86,12 @@
 		A795672B1CA3F49C00A79EE6 /* ChangingPwdWireframeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangingPwdWireframeProtocol.swift; path = Modules/ChangingPassword/Routing/ChangingPwdWireframeProtocol.swift; sourceTree = "<group>"; };
 		A795672E1CA3F4A400A79EE6 /* ChangingPwdInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangingPwdInteractor.swift; path = Modules/ChangingPassword/BuisnessLogic/ChangingPwdInteractor.swift; sourceTree = "<group>"; };
 		A795672F1CA3F4A400A79EE6 /* ChangingPwdInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangingPwdInteractorProtocol.swift; path = Modules/ChangingPassword/BuisnessLogic/ChangingPwdInteractorProtocol.swift; sourceTree = "<group>"; };
+		A79567461CA3F72E00A79EE6 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeInteractor.swift; path = Modules/Home/BuisnessLogic/HomeInteractor.swift; sourceTree = "<group>"; };
+		A79567471CA3F72E00A79EE6 /* HomeInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeInteractorProtocol.swift; path = Modules/Home/BuisnessLogic/HomeInteractorProtocol.swift; sourceTree = "<group>"; };
+		A795674A1CA3F73600A79EE6 /* HomeWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeWireframe.swift; path = Modules/Home/Routing/HomeWireframe.swift; sourceTree = "<group>"; };
+		A795674B1CA3F73600A79EE6 /* HomeWireframeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeWireframeProtocol.swift; path = Modules/Home/Routing/HomeWireframeProtocol.swift; sourceTree = "<group>"; };
+		A795674E1CA3F73F00A79EE6 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = Modules/Home/UI/HomeVC.swift; sourceTree = "<group>"; };
+		A79567501CA3F77500A79EE6 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Modules/Home/UI/Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +203,7 @@
 		A79566EC1CA3ED0A00A79EE6 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				A79567421CA3F6EB00A79EE6 /* Home */,
 				A79566ED1CA3ED1600A79EE6 /* UserProfile */,
 				A79566EE1CA3ED2900A79EE6 /* ChangingPassword */,
 			);
@@ -267,6 +280,43 @@
 			children = (
 				A795671A1CA3F46800A79EE6 /* UserProfile.storyboard */,
 				A795671B1CA3F46800A79EE6 /* UserProfileVC.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A79567421CA3F6EB00A79EE6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A79567451CA3F70000A79EE6 /* UI */,
+				A79567441CA3F6FE00A79EE6 /* Routing */,
+				A79567431CA3F6F500A79EE6 /* BuisnessLogic */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A79567431CA3F6F500A79EE6 /* BuisnessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A79567461CA3F72E00A79EE6 /* HomeInteractor.swift */,
+				A79567471CA3F72E00A79EE6 /* HomeInteractorProtocol.swift */,
+			);
+			name = BuisnessLogic;
+			sourceTree = "<group>";
+		};
+		A79567441CA3F6FE00A79EE6 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				A795674A1CA3F73600A79EE6 /* HomeWireframe.swift */,
+				A795674B1CA3F73600A79EE6 /* HomeWireframeProtocol.swift */,
+			);
+			name = Routing;
+			sourceTree = "<group>";
+		};
+		A79567451CA3F70000A79EE6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A795674E1CA3F73F00A79EE6 /* HomeVC.swift */,
+				A79567501CA3F77500A79EE6 /* Home.storyboard */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -376,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A795669A1CA29CBF00A79EE6 /* LaunchScreen.storyboard in Resources */,
+				A79567511CA3F77500A79EE6 /* Home.storyboard in Resources */,
 				A79566971CA29CBF00A79EE6 /* Assets.xcassets in Resources */,
 				A79567281CA3F49400A79EE6 /* ChangingPwd.storyboard in Resources */,
 				A795671C1CA3F46800A79EE6 /* UserProfile.storyboard in Resources */,
@@ -412,13 +463,18 @@
 				A79567291CA3F49400A79EE6 /* ChangingPwdVC.swift in Sources */,
 				A79567251CA3F47B00A79EE6 /* UserProfileInteractorProtocol.swift in Sources */,
 				A79566E61CA3E9E500A79EE6 /* CoreDataManager.swift in Sources */,
+				A795674F1CA3F73F00A79EE6 /* HomeVC.swift in Sources */,
 				A795671D1CA3F46800A79EE6 /* UserProfileVC.swift in Sources */,
 				A79567201CA3F47300A79EE6 /* UserProfileWireframe.swift in Sources */,
 				A79567211CA3F47300A79EE6 /* UserProfileWireframeProtocol.swift in Sources */,
 				A79567301CA3F4A400A79EE6 /* ChangingPwdInteractor.swift in Sources */,
+				A795674C1CA3F73600A79EE6 /* HomeWireframe.swift in Sources */,
+				A795674D1CA3F73600A79EE6 /* HomeWireframeProtocol.swift in Sources */,
 				A795668D1CA29CBF00A79EE6 /* AppDelegate.swift in Sources */,
 				A79566E81CA3E9EE00A79EE6 /* UserProvider.swift in Sources */,
+				A79567481CA3F72E00A79EE6 /* HomeInteractor.swift in Sources */,
 				A795672D1CA3F49C00A79EE6 /* ChangingPwdWireframeProtocol.swift in Sources */,
+				A79567491CA3F72E00A79EE6 /* HomeInteractorProtocol.swift in Sources */,
 				A795672C1CA3F49C00A79EE6 /* ChangingPwdWireframe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
