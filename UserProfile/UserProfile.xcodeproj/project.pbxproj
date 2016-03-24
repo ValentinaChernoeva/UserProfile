@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A795668D1CA29CBF00A79EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795668C1CA29CBF00A79EE6 /* AppDelegate.swift */; };
-		A795668F1CA29CBF00A79EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795668E1CA29CBF00A79EE6 /* ViewController.swift */; };
-		A79566921CA29CBF00A79EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79566901CA29CBF00A79EE6 /* Main.storyboard */; };
 		A79566971CA29CBF00A79EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79566961CA29CBF00A79EE6 /* Assets.xcassets */; };
 		A795669A1CA29CBF00A79EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79566981CA29CBF00A79EE6 /* LaunchScreen.storyboard */; };
 		A79566A51CA29CC000A79EE6 /* UserProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79566A41CA29CC000A79EE6 /* UserProfileTests.swift */; };
@@ -20,6 +18,18 @@
 		A79566E61CA3E9E500A79EE6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79566E51CA3E9E500A79EE6 /* CoreDataManager.swift */; };
 		A79566E81CA3E9EE00A79EE6 /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79566E71CA3E9EE00A79EE6 /* UserProvider.swift */; };
 		A79566EB1CA3EA0D00A79EE6 /* UserProfile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A79566E91CA3EA0D00A79EE6 /* UserProfile.xcdatamodeld */; };
+		A795671C1CA3F46800A79EE6 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A795671A1CA3F46800A79EE6 /* UserProfile.storyboard */; };
+		A795671D1CA3F46800A79EE6 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795671B1CA3F46800A79EE6 /* UserProfileVC.swift */; };
+		A79567201CA3F47300A79EE6 /* UserProfileWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795671E1CA3F47300A79EE6 /* UserProfileWireframe.swift */; };
+		A79567211CA3F47300A79EE6 /* UserProfileWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795671F1CA3F47300A79EE6 /* UserProfileWireframeProtocol.swift */; };
+		A79567241CA3F47B00A79EE6 /* UserProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79567221CA3F47B00A79EE6 /* UserProfileInteractor.swift */; };
+		A79567251CA3F47B00A79EE6 /* UserProfileInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79567231CA3F47B00A79EE6 /* UserProfileInteractorProtocol.swift */; };
+		A79567281CA3F49400A79EE6 /* ChangingPwd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79567261CA3F49400A79EE6 /* ChangingPwd.storyboard */; };
+		A79567291CA3F49400A79EE6 /* ChangingPwdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79567271CA3F49400A79EE6 /* ChangingPwdVC.swift */; };
+		A795672C1CA3F49C00A79EE6 /* ChangingPwdWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795672A1CA3F49C00A79EE6 /* ChangingPwdWireframe.swift */; };
+		A795672D1CA3F49C00A79EE6 /* ChangingPwdWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795672B1CA3F49C00A79EE6 /* ChangingPwdWireframeProtocol.swift */; };
+		A79567301CA3F4A400A79EE6 /* ChangingPwdInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795672E1CA3F4A400A79EE6 /* ChangingPwdInteractor.swift */; };
+		A79567311CA3F4A400A79EE6 /* ChangingPwdInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795672F1CA3F4A400A79EE6 /* ChangingPwdInteractorProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +52,6 @@
 /* Begin PBXFileReference section */
 		A79566891CA29CBF00A79EE6 /* UserProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A795668C1CA29CBF00A79EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A795668E1CA29CBF00A79EE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A79566911CA29CBF00A79EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A79566961CA29CBF00A79EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A79566991CA29CBF00A79EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A795669B1CA29CBF00A79EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +68,18 @@
 		A79566E51CA3E9E500A79EE6 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = "Data store/CoreDataManager.swift"; sourceTree = "<group>"; };
 		A79566E71CA3E9EE00A79EE6 /* UserProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProvider.swift; path = "Data store/UserProvider.swift"; sourceTree = "<group>"; };
 		A79566EA1CA3EA0D00A79EE6 /* UserProfile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserProfile.xcdatamodel; sourceTree = "<group>"; };
+		A795671A1CA3F46800A79EE6 /* UserProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = UserProfile.storyboard; path = Modules/UserProfile/UI/UserProfile.storyboard; sourceTree = "<group>"; };
+		A795671B1CA3F46800A79EE6 /* UserProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProfileVC.swift; path = Modules/UserProfile/UI/UserProfileVC.swift; sourceTree = "<group>"; };
+		A795671E1CA3F47300A79EE6 /* UserProfileWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProfileWireframe.swift; path = Modules/UserProfile/Routing/UserProfileWireframe.swift; sourceTree = "<group>"; };
+		A795671F1CA3F47300A79EE6 /* UserProfileWireframeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProfileWireframeProtocol.swift; path = Modules/UserProfile/Routing/UserProfileWireframeProtocol.swift; sourceTree = "<group>"; };
+		A79567221CA3F47B00A79EE6 /* UserProfileInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProfileInteractor.swift; path = Modules/UserProfile/BuisnessLogic/UserProfileInteractor.swift; sourceTree = "<group>"; };
+		A79567231CA3F47B00A79EE6 /* UserProfileInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProfileInteractorProtocol.swift; path = Modules/UserProfile/BuisnessLogic/UserProfileInteractorProtocol.swift; sourceTree = "<group>"; };
+		A79567261CA3F49400A79EE6 /* ChangingPwd.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ChangingPwd.storyboard; path = Modules/ChangingPassword/UI/ChangingPwd.storyboard; sourceTree = "<group>"; };
+		A79567271CA3F49400A79EE6 /* ChangingPwdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangingPwdVC.swift; path = Modules/ChangingPassword/UI/ChangingPwdVC.swift; sourceTree = "<group>"; };
+		A795672A1CA3F49C00A79EE6 /* ChangingPwdWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangingPwdWireframe.swift; path = Modules/ChangingPassword/Routing/ChangingPwdWireframe.swift; sourceTree = "<group>"; };
+		A795672B1CA3F49C00A79EE6 /* ChangingPwdWireframeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangingPwdWireframeProtocol.swift; path = Modules/ChangingPassword/Routing/ChangingPwdWireframeProtocol.swift; sourceTree = "<group>"; };
+		A795672E1CA3F4A400A79EE6 /* ChangingPwdInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangingPwdInteractor.swift; path = Modules/ChangingPassword/BuisnessLogic/ChangingPwdInteractor.swift; sourceTree = "<group>"; };
+		A795672F1CA3F4A400A79EE6 /* ChangingPwdInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangingPwdInteractorProtocol.swift; path = Modules/ChangingPassword/BuisnessLogic/ChangingPwdInteractorProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				A795668C1CA29CBF00A79EE6 /* AppDelegate.swift */,
-				A795668E1CA29CBF00A79EE6 /* ViewController.swift */,
+				A79566EC1CA3ED0A00A79EE6 /* Modules */,
 				A79566D81CA3E73D00A79EE6 /* Data store */,
-				A79566901CA29CBF00A79EE6 /* Main.storyboard */,
 				A79566961CA29CBF00A79EE6 /* Assets.xcassets */,
 				A79566981CA29CBF00A79EE6 /* LaunchScreen.storyboard */,
 				A795669B1CA29CBF00A79EE6 /* Info.plist */,
@@ -167,6 +186,89 @@
 				A79566DF1CA3E9C900A79EE6 /* UserModel.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		A79566EC1CA3ED0A00A79EE6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A79566ED1CA3ED1600A79EE6 /* UserProfile */,
+				A79566EE1CA3ED2900A79EE6 /* ChangingPassword */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		A79566ED1CA3ED1600A79EE6 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				A79566F51CA3EDB900A79EE6 /* UI */,
+				A79566F41CA3EDB300A79EE6 /* Routing */,
+				A79566F31CA3EDAB00A79EE6 /* BuisnessLogic */,
+			);
+			name = UserProfile;
+			sourceTree = "<group>";
+		};
+		A79566EE1CA3ED2900A79EE6 /* ChangingPassword */ = {
+			isa = PBXGroup;
+			children = (
+				A79566F21CA3ED8200A79EE6 /* UI */,
+				A79566F01CA3ED6600A79EE6 /* Routing */,
+				A79566EF1CA3ED4200A79EE6 /* BuisnessLogic */,
+			);
+			name = ChangingPassword;
+			sourceTree = "<group>";
+		};
+		A79566EF1CA3ED4200A79EE6 /* BuisnessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A795672E1CA3F4A400A79EE6 /* ChangingPwdInteractor.swift */,
+				A795672F1CA3F4A400A79EE6 /* ChangingPwdInteractorProtocol.swift */,
+			);
+			name = BuisnessLogic;
+			sourceTree = "<group>";
+		};
+		A79566F01CA3ED6600A79EE6 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				A795672A1CA3F49C00A79EE6 /* ChangingPwdWireframe.swift */,
+				A795672B1CA3F49C00A79EE6 /* ChangingPwdWireframeProtocol.swift */,
+			);
+			name = Routing;
+			sourceTree = "<group>";
+		};
+		A79566F21CA3ED8200A79EE6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A79567261CA3F49400A79EE6 /* ChangingPwd.storyboard */,
+				A79567271CA3F49400A79EE6 /* ChangingPwdVC.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A79566F31CA3EDAB00A79EE6 /* BuisnessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A79567221CA3F47B00A79EE6 /* UserProfileInteractor.swift */,
+				A79567231CA3F47B00A79EE6 /* UserProfileInteractorProtocol.swift */,
+			);
+			name = BuisnessLogic;
+			sourceTree = "<group>";
+		};
+		A79566F41CA3EDB300A79EE6 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				A795671E1CA3F47300A79EE6 /* UserProfileWireframe.swift */,
+				A795671F1CA3F47300A79EE6 /* UserProfileWireframeProtocol.swift */,
+			);
+			name = Routing;
+			sourceTree = "<group>";
+		};
+		A79566F51CA3EDB900A79EE6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A795671A1CA3F46800A79EE6 /* UserProfile.storyboard */,
+				A795671B1CA3F46800A79EE6 /* UserProfileVC.swift */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +377,8 @@
 			files = (
 				A795669A1CA29CBF00A79EE6 /* LaunchScreen.storyboard in Resources */,
 				A79566971CA29CBF00A79EE6 /* Assets.xcassets in Resources */,
-				A79566921CA29CBF00A79EE6 /* Main.storyboard in Resources */,
+				A79567281CA3F49400A79EE6 /* ChangingPwd.storyboard in Resources */,
+				A795671C1CA3F46800A79EE6 /* UserProfile.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,13 +404,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A79566EB1CA3EA0D00A79EE6 /* UserProfile.xcdatamodeld in Sources */,
-				A795668F1CA29CBF00A79EE6 /* ViewController.swift in Sources */,
+				A79567241CA3F47B00A79EE6 /* UserProfileInteractor.swift in Sources */,
+				A79567311CA3F4A400A79EE6 /* ChangingPwdInteractorProtocol.swift in Sources */,
 				A79566E41CA3E9D600A79EE6 /* User+CoreDataProperties.swift in Sources */,
 				A79566E01CA3E9C900A79EE6 /* UserModel.swift in Sources */,
 				A79566E31CA3E9D600A79EE6 /* User.swift in Sources */,
+				A79567291CA3F49400A79EE6 /* ChangingPwdVC.swift in Sources */,
+				A79567251CA3F47B00A79EE6 /* UserProfileInteractorProtocol.swift in Sources */,
 				A79566E61CA3E9E500A79EE6 /* CoreDataManager.swift in Sources */,
+				A795671D1CA3F46800A79EE6 /* UserProfileVC.swift in Sources */,
+				A79567201CA3F47300A79EE6 /* UserProfileWireframe.swift in Sources */,
+				A79567211CA3F47300A79EE6 /* UserProfileWireframeProtocol.swift in Sources */,
+				A79567301CA3F4A400A79EE6 /* ChangingPwdInteractor.swift in Sources */,
 				A795668D1CA29CBF00A79EE6 /* AppDelegate.swift in Sources */,
 				A79566E81CA3E9EE00A79EE6 /* UserProvider.swift in Sources */,
+				A795672D1CA3F49C00A79EE6 /* ChangingPwdWireframeProtocol.swift in Sources */,
+				A795672C1CA3F49C00A79EE6 /* ChangingPwdWireframe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,14 +455,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A79566901CA29CBF00A79EE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A79566911CA29CBF00A79EE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A79566981CA29CBF00A79EE6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
