@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pdB-4r-DlB">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--HomeVC-->
+        <scene sceneID="vVf-fD-9Yp">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" id="pdB-4r-DlB" customClass="HomeVC" customModule="UserProfile" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g5j-By-3GQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="o01-Y7-O7N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mgD-Bf-6YZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserName!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKV-NR-GvF">
+                                <rect key="frame" x="114" y="232" width="92" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KpR-nN-MYW">
+                                <rect key="frame" x="56" y="269" width="208" height="30"/>
+                                <state key="normal" title="User profile &gt;"/>
+                                <connections>
+                                    <action selector="onTapUserProfileButton:" destination="pdB-4r-DlB" eventType="touchUpInside" id="l2P-9i-iDm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hellow," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qqe-yG-BR7">
+                                <rect key="frame" x="130" y="203" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="KpR-nN-MYW" secondAttribute="trailing" constant="40" id="3hg-za-b6l"/>
+                            <constraint firstItem="Qqe-yG-BR7" firstAttribute="centerX" secondItem="mgD-Bf-6YZ" secondAttribute="centerX" id="I7s-pz-6dC"/>
+                            <constraint firstItem="HKV-NR-GvF" firstAttribute="top" secondItem="Qqe-yG-BR7" secondAttribute="bottom" constant="8" id="gME-cc-wgw"/>
+                            <constraint firstItem="HKV-NR-GvF" firstAttribute="centerX" secondItem="mgD-Bf-6YZ" secondAttribute="centerX" id="gwF-CC-qGg"/>
+                            <constraint firstItem="KpR-nN-MYW" firstAttribute="centerY" secondItem="mgD-Bf-6YZ" secondAttribute="centerY" id="vqL-rc-y2C"/>
+                            <constraint firstItem="KpR-nN-MYW" firstAttribute="leading" secondItem="mgD-Bf-6YZ" secondAttribute="leadingMargin" constant="40" id="wuq-0a-dqT"/>
+                            <constraint firstItem="KpR-nN-MYW" firstAttribute="top" secondItem="HKV-NR-GvF" secondAttribute="bottom" constant="16" id="x0U-U4-sud"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="HKV-NR-GvF" id="nOu-GP-dF9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bgn-Yl-iuM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442" y="427"/>
+        </scene>
+    </scenes>
 </document>

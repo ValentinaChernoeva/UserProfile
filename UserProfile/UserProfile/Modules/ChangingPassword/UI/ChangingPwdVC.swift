@@ -9,9 +9,15 @@
 import UIKit
 
 class ChangingPwdVC: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
+    @IBOutlet weak var oldPwdTextField: UITextField!
+    @IBOutlet weak var newPwdTextField: UITextField!
+    
+    @IBAction func onTapSaveButton(sender: AnyObject) {
+        
     }
-
+    
+    @IBAction func onTapBackButton(sender: AnyObject) {
+        
+    }
 }

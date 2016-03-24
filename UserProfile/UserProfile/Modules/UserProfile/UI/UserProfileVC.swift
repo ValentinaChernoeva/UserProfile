@@ -9,10 +9,16 @@
 import UIKit
 
 class UserProfileVC: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBAction func onTapSaveButton(sender: AnyObject) {
+        
     }
-
+    @IBAction func onTapBackButton(sender: AnyObject) {
+        
+    }
 
 }

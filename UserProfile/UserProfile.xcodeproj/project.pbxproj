@@ -251,8 +251,8 @@
 		A79566F21CA3ED8200A79EE6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A79567261CA3F49400A79EE6 /* ChangingPwd.storyboard */,
 				A79567271CA3F49400A79EE6 /* ChangingPwdVC.swift */,
+				A79567261CA3F49400A79EE6 /* ChangingPwd.storyboard */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -278,8 +278,8 @@
 		A79566F51CA3EDB900A79EE6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A795671A1CA3F46800A79EE6 /* UserProfile.storyboard */,
 				A795671B1CA3F46800A79EE6 /* UserProfileVC.swift */,
+				A795671A1CA3F46800A79EE6 /* UserProfile.storyboard */,
 			);
 			name = UI;
 			sourceTree = "<group>";

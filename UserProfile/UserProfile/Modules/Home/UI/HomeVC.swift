@@ -9,9 +9,12 @@
 import UIKit
 
 class HomeVC: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBAction func onTapUserProfileButton(sender: AnyObject) {
+        
     }
+
 
 }
