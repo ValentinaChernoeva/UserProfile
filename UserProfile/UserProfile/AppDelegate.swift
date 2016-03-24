@@ -15,6 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        let userProvider = UserProvider.sharedInstance
+        if userProvider.loadUser() != nil {
+            userProvider.deleteUser()
+        } else {
+            let user = UserModel()
+            user.name = "Valua"
+            user.email = "myEmail"
+            user.password = "123"
+            userProvider.createUser(user)
+        }
         return true
     }
 
