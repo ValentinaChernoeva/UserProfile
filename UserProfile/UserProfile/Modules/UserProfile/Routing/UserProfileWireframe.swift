@@ -9,5 +9,10 @@
 import UIKit
 
 class UserProfileWireframe: NSObject, UserProfileWireframeProtocol {
-    
+    func presentChangingPwdScreen() {
+        
+    }
+    func dismissProfileScreen() {
+        
+    }
 }

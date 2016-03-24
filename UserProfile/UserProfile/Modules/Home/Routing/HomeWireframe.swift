@@ -9,5 +9,7 @@
 import UIKit
 
 class HomeWireframe: NSObject, HomeWireframeProtocol {
-    
+    func presentUserProfileScreen() {
+        
+    }
 }

@@ -9,5 +9,6 @@
 import UIKit
 
 @objc protocol UserProfileWireframeProtocol {
-
+    func presentChangingPwdScreen()
+    func dismissProfileScreen()
 }

@@ -9,5 +9,5 @@
 import UIKit
 
 @objc protocol ChangingPwdWireframeProtocol {
-    
+    func dismissChangingPwdScreen()
 }

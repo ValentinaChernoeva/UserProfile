@@ -9,5 +9,7 @@
 import UIKit
 
 class ChangingPwdWireframe: NSObject, ChangingPwdWireframeProtocol {
-    
+    func dismissChangingPwdScreen() {
+        
+    }
 }
