@@ -52,6 +52,9 @@
                                 <rect key="frame" x="103" y="173" width="201" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Y40-2H-tBM" id="uyd-q0-qJv"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNr-cc-Npb">
                                 <rect key="frame" x="100" y="219" width="120" height="30"/>

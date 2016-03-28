@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71C6DF11CA91C7C00CF6DFC /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71C6DF01CA91C7C00CF6DFC /* UIViewController+Storyboard.swift */; };
 		A795668D1CA29CBF00A79EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A795668C1CA29CBF00A79EE6 /* AppDelegate.swift */; };
 		A79566971CA29CBF00A79EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79566961CA29CBF00A79EE6 /* Assets.xcassets */; };
 		A795669A1CA29CBF00A79EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79566981CA29CBF00A79EE6 /* LaunchScreen.storyboard */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A71C6DF01CA91C7C00CF6DFC /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Storyboard.swift"; path = "Categories/UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
 		A79566891CA29CBF00A79EE6 /* UserProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A795668C1CA29CBF00A79EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A79566961CA29CBF00A79EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +121,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A71C6DF21CA91C8000CF6DFC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A71C6DF01CA91C7C00CF6DFC /* UIViewController+Storyboard.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		A79566801CA29CBF00A79EE6 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				A795668C1CA29CBF00A79EE6 /* AppDelegate.swift */,
+				A71C6DF21CA91C8000CF6DFC /* Categories */,
 				A79566EC1CA3ED0A00A79EE6 /* Modules */,
 				A79566D81CA3E73D00A79EE6 /* Data store */,
 				A79566961CA29CBF00A79EE6 /* Assets.xcassets */,
@@ -472,6 +483,7 @@
 				A795674D1CA3F73600A79EE6 /* HomeWireframeProtocol.swift in Sources */,
 				A795668D1CA29CBF00A79EE6 /* AppDelegate.swift in Sources */,
 				A79566E81CA3E9EE00A79EE6 /* UserProvider.swift in Sources */,
+				A71C6DF11CA91C7C00CF6DFC /* UIViewController+Storyboard.swift in Sources */,
 				A79567481CA3F72E00A79EE6 /* HomeInteractor.swift in Sources */,
 				A795672D1CA3F49C00A79EE6 /* ChangingPwdWireframeProtocol.swift in Sources */,
 				A79567491CA3F72E00A79EE6 /* HomeInteractorProtocol.swift in Sources */,

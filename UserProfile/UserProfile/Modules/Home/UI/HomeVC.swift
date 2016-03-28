@@ -10,11 +10,18 @@ import UIKit
 
 class HomeVC: UIViewController {
     
+    var navigation : HomeWireframe?
+    
     @IBOutlet weak var nameLabel: UILabel!
     
-    @IBAction func onTapUserProfileButton(sender: AnyObject) {
-        
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.navigation = HomeWireframe()
+        self.navigation?.homeVC = self
     }
-
+    
+    @IBAction func onTapUserProfileButton(sender: AnyObject) {
+        self.navigation?.presentUserProfileScreen()
+    }
 
 }

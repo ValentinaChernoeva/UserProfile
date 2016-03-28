@@ -12,6 +12,7 @@ import UIKit
 struct Constants {
     static let storyboardNameHome = "Home"
     static let storyboardNameProfile = "UserProfile"
+    static let storyboardNameChangingPwd = "ChangingPwd"
 }
 
 extension UIViewController {

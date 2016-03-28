@@ -10,6 +10,8 @@ import UIKit
 
 class ChangingPwdVC: UIViewController {
     
+    var navigation : ChangingPwdWireframe?
+    
     @IBOutlet weak var oldPwdTextField: UITextField!
     @IBOutlet weak var newPwdTextField: UITextField!
     
@@ -18,6 +20,6 @@ class ChangingPwdVC: UIViewController {
     }
     
     @IBAction func onTapBackButton(sender: AnyObject) {
-        
+        self.navigation?.dismissChangingPwdScreen()
     }
 }

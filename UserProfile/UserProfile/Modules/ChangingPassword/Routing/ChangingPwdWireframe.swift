@@ -9,7 +9,10 @@
 import UIKit
 
 class ChangingPwdWireframe: NSObject, ChangingPwdWireframeProtocol {
+    
+    var changingPwdVC : ChangingPwdVC?
+    
     func dismissChangingPwdScreen() {
-        
+        self.changingPwdVC?.dismissViewControllerAnimated(true, completion: nil)
     }
 }
