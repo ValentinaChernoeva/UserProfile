@@ -11,25 +11,29 @@ import UIKit
 class UserProfileVC: UIViewController {
     
     var navigation : UserProfileWireframe?
+    var interactor : UserProfileInteractor?
     
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.interactor?.fillView()
+    }
+    
     @IBAction func onTapSaveButton(sender: AnyObject) {
-        
+        if interactor?.updateUserProfile() == true {
+            self.navigation?.dismissProfileScreen()
+        }
     }
     
     @IBAction func onTapBackButton(sender: AnyObject) {
         navigation?.dismissProfileScreen()
     }
     
-// MARK: UITextFieldDelegate
-    
-    func textFieldShouldBeginEditing(textField: UITextField) -> Bool {
-        if (textField == self.passwordTextField) {
-            navigation?.presentChangingPwdScreen()
-        }
-        return true
+    @IBAction func ontapChangePwdButton(sender: UIButton) {
+        navigation?.presentChangingPwdScreen()
     }
+    
 }

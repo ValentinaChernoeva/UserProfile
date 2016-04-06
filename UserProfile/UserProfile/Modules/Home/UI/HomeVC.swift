@@ -11,13 +11,13 @@ import UIKit
 class HomeVC: UIViewController {
     
     var navigation : HomeWireframe?
+    var interactor : HomeInteractor?
     
     @IBOutlet weak var nameLabel: UILabel!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.navigation = HomeWireframe()
-        self.navigation?.homeVC = self
+
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.interactor?.fillView()
     }
     
     @IBAction func onTapUserProfileButton(sender: AnyObject) {

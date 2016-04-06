@@ -12,19 +12,21 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let homeWireframe = HomeWireframe()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
         let userProvider = UserProvider.sharedInstance
-        if userProvider.loadUser() != nil {
-            userProvider.deleteUser()
-        } else {
+        if userProvider.loadUser() == nil {
             let user = UserModel()
             user.name = "Valua"
             user.email = "myEmail"
             user.password = "123"
             userProvider.createUser(user)
         }
+        self.homeWireframe.window = self.window
+        self.homeWireframe.presentHomeVCInWindow()
+        
         return true
     }
 

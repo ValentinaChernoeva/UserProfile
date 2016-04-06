@@ -16,6 +16,8 @@ class UserProfileWireframe: NSObject, UserProfileWireframeProtocol {
         let changingPwdVC = ChangingPwdVC.instantiateFromStoryboard(Constants.storyboardNameChangingPwd)
         changingPwdVC.navigation = ChangingPwdWireframe()
         changingPwdVC.navigation?.changingPwdVC = changingPwdVC
+        changingPwdVC.interactor = ChangingPwdInteractor()
+        changingPwdVC.interactor?.view = changingPwdVC
         self.profileVC?.presentViewController(changingPwdVC, animated: true, completion: nil);
     }
     

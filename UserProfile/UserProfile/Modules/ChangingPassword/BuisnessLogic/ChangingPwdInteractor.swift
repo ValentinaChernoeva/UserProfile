@@ -9,7 +9,12 @@
 import UIKit
 
 class ChangingPwdInteractor: NSObject, ChangingPwdInteractorProtocol {
-    func changePassword(oldPwd: String, newPwd: String) {
-        
+    
+    var view: ChangingPwdVC?
+    
+    func changePassword() -> Bool {
+        let oldPwd = self.view?.oldPwdTextField.text
+        let newPwd = self.view?.newPwdTextField.text
+        return UserProvider.sharedInstance.changePwd(oldPwd!, newPwd: newPwd!)
     }
 }

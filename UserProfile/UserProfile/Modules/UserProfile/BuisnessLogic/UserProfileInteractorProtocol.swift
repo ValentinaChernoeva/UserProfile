@@ -9,5 +9,6 @@
 import UIKit
 
 protocol UserProfileInteractorProtocol {
-    func updateUserProfile(user:UserModel)
+    func fillView()
+    func updateUserProfile() -> Bool
 }

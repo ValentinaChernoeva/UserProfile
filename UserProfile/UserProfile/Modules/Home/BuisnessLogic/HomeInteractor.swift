@@ -10,4 +10,10 @@ import UIKit
 
 class HomeInteractor: NSObject, HomeInteractorProtocol {
     
+    var view: HomeVC?
+    
+    func fillView() {
+        let user = UserProvider.sharedInstance.loadUser()
+        self.view?.nameLabel.text = user!.name
+    }
 }
